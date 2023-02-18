@@ -1,9 +1,9 @@
 <template>
   <div class="currency-box">
-    <img :src="flag" :alt="code" class="flag">
+    <img :src="flag" :alt="code" class="flag" />
     <div class="title-box">
       <span class="code">{{ code }}</span>
-      <span class='title' id="title">{{ titleD }}</span>
+      <span class="title" id="title">{{ titleD }}</span>
     </div>
     <div class="value-box">
       <span class="value">{{ value }}</span>
@@ -21,8 +21,8 @@ export default {
   },
   data() {
     return {
-      flag: `flags/${this.code}.png`,
-      hover: '',
+      flag: this.title ? `flags/${this.code}.png` : "default.png",
+      hover: "",
       titleD: this.title,
     };
   },
@@ -37,7 +37,7 @@ export default {
   background-color: #d4d4d4;
   border-radius: 20px;
   user-select: none;
-  transition: .3s;
+  transition: 0.3s;
   margin: 20px;
 }
 
