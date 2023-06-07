@@ -33,7 +33,7 @@ export default {
 <style scoped>
 .currency-box {
   display: flex;
-  width: 80%;
+  width: 400px;
   background-color: #d4d4d4;
   border-radius: 20px;
   user-select: none;
@@ -42,7 +42,7 @@ export default {
 }
 
 .currency-box:hover {
-  width: 90%;
+  width: 450px;
 }
 
 .currency-box .flag {
