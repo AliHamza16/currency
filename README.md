@@ -1,5 +1,5 @@
 # currency
-
+live exchange rates for the turkish lira (TRY)
 ## Project setup
 ```
 npm install
