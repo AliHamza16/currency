@@ -57,6 +57,7 @@ export default {
         CLP: "Şili Pesosu",
         COP: "Kolombiya Pesosu",
         CRC: "Kosta Rika Colonu",
+        CZK: "Çek Korunası",
         DZD: "Cezayir Dinarı",
         EGP: "Mısır Lirası",
         HKD: "Hong Kong Doları",
